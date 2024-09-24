@@ -1,0 +1,19 @@
+{
+  "name": "iotanic-data-seeder",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.1.1",
+    "elysia": "latest",
+    "mongoose": "^8.6.3",
+    "mqtt": "^5.10.1",
+    "picocolors": "^1.1.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
